@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "video streaming platform",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/ayushanand89/StreamNest/issues"
   },
-  "homepage": "https://github.com/ayushanand89/StreamNest#readme"
+  "homepage": "https://github.com/ayushanand89/StreamNest#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
